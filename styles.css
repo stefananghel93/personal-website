@@ -78,18 +78,19 @@ h1{
     padding-top: .65rem;
     width: 150px;
 }
-
-nav ul{
+.nav-bar{
     padding-top: 1rem;
-    align-content: center;
 }
 
-ul li{
-    display: inline;
+.nav-bar ul{
+    display: flex;
     margin-right: 1.5rem;
 }
+.nav-bar li{
+    list-style: none;
+}
 
-li a{
+.nav-bar ul li a{
     font-size: 1.2rem;
     color: var(--main-text-color);
     margin-left: 30px;
@@ -130,6 +131,24 @@ li a:hover{
     cursor: pointer;
 }
 
+.toggle-button{
+    position: absolute;
+    top: .85rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #27374D;
+    border-radius: 10px;
+
+}
 
 
 /* LEFT TEXT - HERO SECTION */
@@ -146,7 +165,7 @@ section > article{
 
 }
 
-article h1{
+h1{
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -176,8 +195,11 @@ article p{
 .button:hover{
 
     box-shadow:3px 3px #27374D;
-   
-   
+}
+
+.button:active{
+    transform: scale(0.98);
+    box-shadow: 0 0;
 }
 
 /* IMAGE- ANIMATION HERO SECTION */
@@ -460,22 +482,43 @@ span img{
  /* MEDIA QUERIES */
 
 @media (max-width: 800px) {
+
     .top-bar{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
-    nav ul li a{
-        margin-left:.3rem;
-        padding: 0;
+    .nav-bar{
+        display: none;
+        background-color:#9DB2BF;
+        width: 100%;
+    }
+
+    .nav-bar ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-bar li{
+        flex-direction: column;
+        text-align: center;
+        padding: .5rem;
+    }
+
+
+    .nav-bar.active{
+        display: flex;
+       
+    }
+
+    .toggle-button{
+        display: flex;
     }
     section{
-        display: flex;
-        flex-direction: column;
         align-items: center;
         gap: 1rem;
-        margin-top: 1.5rem;
+        margin-top: .5rem;
     }
     
     section article{
@@ -487,14 +530,13 @@ span img{
     }
 
     section> img{
-        /* background-color: red; */
         margin: 0;
         width:55%;
         height: auto;
      }
 
     h1{
-        font-size: smaller;
+        font-size: 2.5rem;
     }
 
     h2{
@@ -503,8 +545,6 @@ span img{
     h3{
         font-size: 1.3rem;
     }
-
-   
 
     .project-container .card{
         gap: 1rem;
@@ -520,4 +560,26 @@ span img{
     }
 
 }
+
+
+@media (max-width: 550px){
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    .mail{
+        font-size: large;
+        padding: 10px;
+    }
+    .mail img{
+        width:15px;
+    }
+}
+
 
