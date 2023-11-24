@@ -21,10 +21,14 @@ Personal Website Portfolio: This GitHub repository contains the HTML, CSS and Ja
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
+- View the optimal layout for the website depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Select and submit a number rating
-- See the "Thank you" card state after submitting a rating
+- Toggle on and off the navbar links on a small screen by clicking the hamburger menu on the top right
+- Access different projects by clicking on the card
+- Sending an email by clicking on the "Contact me" button
+- Going back to the top of the page by clicking the button "Back to top" on the botom right of the page
+- Download a copy of my resume by clicking on the button "Download CV" on the bottom center of the page
+- Accesing different social links by clicking on the on the icon
 
 ### Screenshot
 
@@ -46,7 +50,7 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
 - Flexbox
 - JavaScript
@@ -54,20 +58,24 @@ Users should be able to:
 
 ### What I learned
 
-I've learned how to use 'forEach' loop for arrays to get all the buttons and apllied different states based on user clicks.
+Building this website I have learned how to use Semantic HTML
+How to use HTML to send an email to specific email address
+Learned more about CSS flexbox and layouts
+How to use media queries
+To create animations and how to use transitions
+To create a responsive layout
+How to make the website interactive by adding some JavaScript to reveal the navbar links on smaller screens
 
-I've also learned how to display a popup message after the user presses the Submit button to submit the rating.
 
-I've refreshed my knowledge about the switch statement and some CSS and HTML features.
 
 ### Continued development
 
-In the future I will continue expand my JavaScript knowledge by building some cool projects.
+I will continue to learn new skills and develop further by building more personal and unique projects which will soon get me to my goal of becoming a web developer.
 
 ## Author
 
 - Website - [Stefan Anghel](https://stefananghel93.github.io/personal-website/)
-- Github - [@stefananghel93](https://github.com/stefananghel93)
-- LinkedIn - [@stefan-anghel](https://www.linkedin.com/in/stefan-anghel/)
+- Github - [Stefan Anghel](https://github.com/stefananghel93)
+- LinkedIn - [Stefan Anghel](https://www.linkedin.com/in/stefan-anghel/)
 
 
