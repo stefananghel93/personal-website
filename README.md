@@ -39,7 +39,7 @@ Users should be able to:
 ![](./assets//images/screenshots/Screenshot5.png)
 ![](./assets//images/screenshots/Screenshot6.png)
 ![](./assets//images/screenshots/Screenshot7.png)
-![](./assets//images/screenshots/Screenshot.png)
+![](./assets//images/screenshots/Screenshot8.png)
 
 
 ### Links
